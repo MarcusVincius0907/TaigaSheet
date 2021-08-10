@@ -3,7 +3,7 @@
     "user": "Patleite", 
     "password": "Paty@5132"
   },
-  "targetProject":"FMP - Gabriel",
+  "targetProject":"FMP - Alumia",
   "projects":[
     {"id":0,"name":"FMP - Gabriel","link":"https://tree.taiga.io/project/antonioalvaro-fmp-"},
     {"id":1,"name":"FMP - Alumia","link":"https://tree.taiga.io/project/antonioalvaro-fmp-alumia"},
