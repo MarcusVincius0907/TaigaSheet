@@ -2,7 +2,7 @@
 
 const fakeValue = require("./example.js");
 const browserHandler = require("./browserHandler/index");
-const googleDriveHandler = require("./googleDrive/index");
+const googleDriveHandler = require("./googleDriveHandler/index");
 
 
 async function fileManipulation(reports) {
