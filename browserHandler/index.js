@@ -89,7 +89,6 @@ async function getReportURL(page){
     }
     
   });
-  console.log('url',url);
   return url
   
 }
