@@ -1,0 +1,1 @@
+start /d "D:\workspaceHD\estudos\projetos\TaigaSheet" node index.js

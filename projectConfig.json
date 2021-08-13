@@ -1,0 +1,69 @@
+{
+  "browserHandler": {
+    "credentials": {
+      "user": "Patleite",
+      "password": "Paty@5132"
+    },
+    "targetProject": "FMP - Alumia",
+    "projects": [
+      {
+        "id": 0,
+        "name": "FMP - Gabriel",
+        "link": "https://tree.taiga.io/project/antonioalvaro-fmp-"
+      },
+      {
+        "id": 1,
+        "name": "FMP - Alumia",
+        "link": "https://tree.taiga.io/project/antonioalvaro-fmp-alumia"
+      },
+      {
+        "id": 2,
+        "name": "EMF - Nova Arq. do EM: itinerários form.",
+        "link": "https://tree.taiga.io/project/antonioalvaro-padrao-modelo-replicavel-3"
+      },
+      {
+        "id": 3,
+        "name": "ALF - Alfabet em língua portuguesa: fundam...",
+        "link": "https://tree.taiga.io/project/antonioalvaro-padrao-modelo-replicavel-2"
+      },
+      {
+        "id": 4,
+        "name": "ESC - Educação híbrida e a aprendizagem ...",
+        "link": "https://tree.taiga.io/project/antonioalvaro-padrao-modelo-replicavel-1"
+      },
+      {
+        "id": 5,
+        "name": "OPET - Prát. Prof.: Metod Ensino da Literatu",
+        "link": "https://tree.taiga.io/project/antonioalvaro-padrao-modelo-replicavel"
+      },
+      {
+        "id": 6,
+        "name": "Comunicação Matemática",
+        "link": "https://tree.taiga.io/project/jooaoalvess-comunicacao-matematica"
+      },
+      {
+        "id": 7,
+        "name": "Metodologias Inovativas",
+        "link": "https://tree.taiga.io/project/jooaoalvess-comunicacao-matematica-1"
+      },
+      {
+        "id": 8,
+        "name": "ESCOLA TRANSDORMADORA: COCRIAR E INOVAR NA EDUCAÇÃO",
+        "link": "https://tree.taiga.io/project/patleite-escola-transdormadora-cocriar-e-inovar-na-educacao"
+      }
+    ]
+  },
+  "googleSheetsHandler":{
+    "type": "service_account",
+    "project_id": "planilhas-321323",
+    "private_key_id": "c768317b1741f34b86d75b681e888cbb02f164a1",
+    "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDE47zR9MYWQ6Ar\nL7f2Q2/AzI1Xc0K5VBxa/x8p9sknE6JMKISzEXjqARj0hEeug4jfIUE15od+dZwj\nqYktV6reByrFNGk5jmaxbG2x2N3mlJn/aQ1k1oKroJxj2gDiWwQMTqRL1L/kbmV4\ndtYD5zVCv4zSiDqJIh4V92dO+GVERcywaywEjUawywDqPeT2bIuUY3fCcC7uiPxv\nbPZnn1f46jWu40ccbGZkx3z0qvbrfFaZUCv9znwtvvKcUv7l4/Valm0EVYf7HJ05\nm5z2AcHDNhIlk38Xxo2gLYGxt2JBZCKjoiIu9qR5289p30o8Gb+I7rmNDUBHiU06\nIY8PZhLJAgMBAAECggEAGAODx+LQFy6T1jiZehyDAJOiSJB7CqIW3EViDmr2YUD8\nikfl2XZP1lCgc9A/cupBkx9Z9gJCM9sR2mqm28Qlx7M9lPRdwiKbZVfpcCfYdrNY\nrgVo2Avuv5KVCHuyIGmD7qFX2hTee7S4RQ9PboXwYc39lb7+TrP90eWNMN1Mcp1O\n9+/mDFCjqrwGfJjVpYN/18Mne2833YUEvze45L6RpBQdy8ADTf6TiiO+BuL6Tz9H\ndXUitas6xodNNs832qkjAGoM0yr9zMAb2mQDyJa9cjEHM/RvXPA+AcC6qnwSDVKh\nvkN/6OrpPNRkdteIHIqtvtmOgttXqtMLtohDcw4UIQKBgQDqFv3bCyUtXgNr55Ww\nmx0mDZ83PkLV+rxxp6HlPib5BEo9bJoUWJngyZWyu1YTUudRje8NpPbmM8fJ9t6d\njzmPkPhuOXyIrFgtT/cfmgx6YxjGIqtEssfVgLIeGOMzJ3jRbizIIduKm9u/w4K3\nVZpT6k0yseYIProR3JW0NZz02QKBgQDXUWT9YHrHfYePnCLiXUZvAYzgofCZPzny\nJenjtW3zJduyOFkAe3YK86sJ9iu4VAyodnd53tpn7/RdWem87oOXd8U8mwVreKEs\nDjCJzGNi+Asf/aJf/4/iKqbgV+kWpN7dVqFwfSBI0bCPhrgTlzKSAtmQAKdNW+u6\nC7ncvwKXcQKBgEk0nXi12I+CehFxn+dV6tyun9730pD2U547bS6yrB9tzwW8g8bf\nGmgowm7dlQKAB6UCfQLIVwoQoWcwk9e0Ja0XCgn2YlKfiwfInSC93S8c9G9qAiN+\nwW2sTIeLAupJasgb61c+91g2e5dRvfw1ggjCGhhDeAuWCjxxvkNYDNipAoGBAJZP\nFcbjcRKOCPIxtxB6uM6JMIUnx0PTpWnrGamCX+zbQtDZERiLF05x57aeiMq2sddw\nS9thvOnN0rLQL6Fah7ZXP/Mc7N2naivNBAlOCxttuKZucsm9J/5kc/YsqGTMV2AA\nN9bFIqJy72RiUWIrrHvNTX9/VUtlndtUkD0PgomhAoGAfiUK/Atf+3bd7yGs7OR9\nJGswbBRV3BTfyWc/gFYupis7n8ChtYYRXr0CKZGdN3SSgNahq2hVUiw0jHAvexTt\n/Y+THqER4VI4fMxc+IC4wsimiMnZu1CGCo45tDxFCJzmtOR0itUfmxwgjQL39N2z\nbj12jKVKaG+Q/aUKiIBTMzA=\n-----END PRIVATE KEY-----\n",
+    "client_email": "editor@planilhas-321323.iam.gserviceaccount.com",
+    "client_id": "114985119127408450825",
+    "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+    "token_uri": "https://oauth2.googleapis.com/token",
+    "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+    "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/editor%40planilhas-321323.iam.gserviceaccount.com",
+    "token":"1s_VIjKt5GDizIbsW6ZxggiNroEnfxo4QjqbFr3M5w4Y"
+  }
+}

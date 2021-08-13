@@ -1,10 +1,12 @@
 const puppeteer = require('puppeteer');
-const config = require('./config.json')
+const configFile = require('../projectConfig.json')
 const axios = require('axios');
+
+const config  = configFile.browserHandler
 
  async function GetReportsFromTaiga(){
   const { credentials } = config
-  const browser = await puppeteer.launch({headless: false});
+  const browser = await puppeteer.launch({headless: true});
   const page = await browser.newPage();
   await page.setViewport({
     width: 1000,

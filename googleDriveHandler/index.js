@@ -1,11 +1,13 @@
-const credentials = require("./credentials.json");
+const configFile = require("../projectConfig.json");
+
+const credentials = configFile.googleSheetsHandler;
 
 async function updateSpreadSheed(filter) {
   const { GoogleSpreadsheet } = require("google-spreadsheet");
   
   // Initialize the sheet - doc ID is the long id in the sheets URL
   const doc = new GoogleSpreadsheet(
-    "1s_VIjKt5GDizIbsW6ZxggiNroEnfxo4QjqbFr3M5w4Y"
+    credentials.token
   );
 
   // Initialize Auth - see more available options at https://theoephraim.github.io/node-google-spreadsheet/#/getting-started/authentication

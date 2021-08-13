@@ -11,9 +11,14 @@ async function fileManipulation(reports) {
   const tasksClosed = []
 
   try {
-    fs.appendFile(reportName, reports, function (err) {
+    /* fs.appendFile(reportName, reports, function (err) {
+      if (err) throw err;
+    }); */
+
+    fs.writeFile(reportName, reports, function (err) {
       if (err) throw err;
     });
+    
 
     const readline = require("readline");
 
@@ -34,9 +39,9 @@ async function fileManipulation(reports) {
       }
     }
 
-    fs.unlink(reportName, function (err) {
+    /* fs.unlink(reportName, function (err) {
       if (err) throw err;
-    });
+    }); */
 
     return tasksClosed;
 
@@ -47,11 +52,11 @@ async function fileManipulation(reports) {
 
 const processCompleted = new Promise(async (res, rej) => {
   try{
-    console.log('Getting reports from Taiga...');
-    const reportsFromTaiga  = await browserHandler.GetReportsFromTaiga()
-    console.log('Manipulating reports...');
+    console.log('Getting reports from Taiga...It could take about 15 seconds');
+    const reportsFromTaiga  = await browserHandler.GetReportsFromTaiga().catch(e => console.log(e))
+    console.log('Manipulating reports...It is fast');
     const reportsFiltered = await fileManipulation(reportsFromTaiga.data)
-    console.log('Updating Google Sheets...');
+    console.log('Updating Google Sheets...It could take a few seconds');
     await googleDriveHandler.updateSpreadSheed(reportsFiltered)
     res('Process completed!')
   }catch (e) {

@@ -1,15 +1,18 @@
 {
-  "name": "googleSheetsManipulation",
+  "name": "TaigaSheet",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "puppeteer": "^10.2.0",
+    "google-spreadsheet": "^3.1.15"
+  },
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "google-spreadsheet": "^3.1.15"
-  }
+  "license": "ISC"
 }
